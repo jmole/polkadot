@@ -87,6 +87,8 @@ pub static ref MOCK_SESSION_INFO: SessionInfo =
 		no_show_slots: 0,
 		needed_approvals: 0,
 		active_validator_indices: vec![],
+		dispute_period: 6,
+		random_seed: [0u8; 32],
 	};
 
 /// `SessionInfo` for the second session. (No more validators, but two more authorities.
@@ -107,6 +109,8 @@ pub static ref MOCK_NEXT_SESSION_INFO: SessionInfo =
 		no_show_slots: 0,
 		needed_approvals: 0,
 		active_validator_indices: vec![],
+		dispute_period: 6,
+		random_seed: [0u8; 32],
 	};
 }
 
